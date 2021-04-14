@@ -216,7 +216,7 @@ app.layout = html.Div([
                 id="choropleth",
                 config=CONFIG
             )
-        ], md=6, lg=4),
+        ], lg=4),
         
         dbc.Col([
             dbc.Row([
@@ -231,7 +231,7 @@ app.layout = html.Div([
                     id="province_bar",
                     config=CONFIG
                 )]),
-        ], md=6, lg=4),
+        ], lg=4),
 
         dbc.Col([
             dbc.Row([
@@ -252,7 +252,7 @@ app.layout = html.Div([
                 id="district_bar",
                 config=CONFIG
             )
-        ], md=6, lg=4),
+        ], lg=4),
     ]),
     html.Hr(),
     sub_title,
@@ -285,7 +285,7 @@ app.layout = html.Div([
                 id='men_woman_prov_bar',
                 config=CONFIG
             ),
-        ], md=6, lg=6),
+        ], lg=6),
         dbc.Col([
             dash_table.DataTable(
                 id='table-filtering',
@@ -450,7 +450,7 @@ app.layout = html.Div([
                     }
                 ]
             )
-        ], md=6, lg=6, className="px-4"),
+        ], lg=6, className="px-4"),
     ]),
 ])
 
