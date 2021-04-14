@@ -118,6 +118,8 @@ def split_filter_part(filter_part):
 
 app = dash.Dash(external_stylesheets=[dbc.themes.MATERIA])
 
+server = app.server
+
 PLOTLY_LOGO = "https://images.plot.ly/logo/new-branding/plotly-logomark.png"
 
 search_bar = dbc.Row(
